@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
+
+    <script src="./js/api_call.js"></script>
+    <script src="./js/index.js"></script>
+
+    <link href="./css/navbar.css" rel="stylesheet">
+
+    <link href="./css/index.css" rel="stylesheet">
+    <link href="./css/sections.css" rel="stylesheet">
+    <link href="./css/cards.css" rel="stylesheet">
+    <link href="./css/table.css" rel="stylesheet">
+
+
+
+
+</head>
+
+<body>
+    <a id="top"></a>
+    <div class="header">
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="./images/virus.svg" alt="logo" style="width:10%;">
+                </a>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#covid19"><span class="fa fa-info-circle"></span> Covid19</a></li>
+                    <li><a href="#symptoms"><span class="glyphicon glyphicon-log-in"></span> Symtoms</a></li>
+                    <li><a href="#treatment"><span class="fa fa-plus-square"></span> Treatment</a></li>
+                    <li><a href="#prevention"><span class="fa fa-exclamation-triangle"></span> Prevention</a></li>
+                    <li><a href="#statistics"><span class="fa fa-bar-chart"></span> Statistics</a></li>
+                    <li><a href="#report"><span class="fa fa-table"></span> Report</a></li>
+                </ul>
+            </div>
+            <hr>
+        </nav>
+
+
+
+        <div class="inner-header flex">
+            <div>
+                <h1>The pandemic of 21st centure</h1>
+                <p>COVID-19 is the disease caused by the new coronavirus that emerged in China in December 2019.
+                    COVID-19 symptoms include cough, fever and shortness of breath. COVID-19 can be severe, and some
+                    cases have caused death</p>
+                <a href="#covid19" class="more_info">More info</a>
+            </div>
+            <img src="./images/doctors.svg">
+        </div>
+
+        <!--Waves Container-->
+        <div>
+            <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+                <defs>
+                    <path id="gentle-wave"
+                        d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+                </defs>
+                <g class="parallax">
+                    <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" />
+                    <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
+                    <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
+                    <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
+                </g>
+            </svg>
+        </div>
+        <!--Waves end-->
+    </div>
+
+    <section id="covid19">
+        <center>
+            <p class="blue">About the virus</p>
+            <h1><b>What is Covid19?</b></h1>
+        </center>
+        <div class="grid">
+            <p>Coronavirus disease (COVID-19) is an infectious disease caused by a newly discovered coronavirus. Most
+                people infected with the COVID-19 virus will experience mild to moderate respiratory illness and recover
+                without requiring special treatment.
+                Older people, and those with underlying medical problems like cardiovascular disease, diabetes, chronic
+                respiratory disease, and cancer are more likely to develop serious illness. The best way to prevent and
+                slow down transmission is be
+                well informed about the COVID-19 virus, the disease it causes and how it spreads. Protect yourself and
+                others from infection by washing your hands or using an alcohol based rub frequently and not touching
+                your face. The COVID-19 virus
+                spreads primarily through droplets of saliva or discharge from the nose when an infected person coughs
+                or sneezes, so it’s important that you also practice respiratory etiquette (for example, by coughing
+                into a flexed elbow). At this time,
+                there are no specific vaccines or treatments for COVID-19. However, there are many ongoing clinical
+                trials evaluating potential treatments. WHO will continue to provide updated information as soon as
+                clinical findings become available.</p>
+            <img src="./images/coronavirus_timeline.jpg">
+        </div>
+    </section>
+
+    <section id="symptoms">
+        <center>
+            <p class="blue">Basic symtoms</p>
+            <h1><b>What are the symtoms?</b></h1>
+        </center>
+        <div class="grid">
+            <img src="./images/symptoms.jpg">
+            <p>Coronavirus disease (COVID-19) is an infectious disease caused by a newly discovered coronavirus. Most
+                people infected with the COVID-19 virus will experience mild to moderate respiratory illness and recover
+                without requiring special treatment.
+                Older people, and those with underlying medical problems like cardiovascular disease, diabetes, chronic
+                respiratory disease, and cancer are more likely to develop serious illness. The best way to prevent and
+                slow down transmission is be
+                well informed about the COVID-19 virus, the disease it causes and how it spreads. Protect yourself and
+                others from infection by washing your hands or using an alcohol based rub frequently and not touching
+                your face. The COVID-19 virus
+                spreads primarily through droplets of saliva or discharge from the nose when an infected person coughs
+                or sneezes, so it’s important that you also practice respiratory etiquette (for example, by coughing
+                into a flexed elbow). At this time,
+                there are no specific vaccines or treatments for COVID-19. However, there are many ongoing clinical
+                trials evaluating potential treatments. WHO will continue to provide updated information as soon as
+                clinical findings become available.</p>
+
+        </div>
+    </section>
+
+    <section id="treatment">
+        <center>
+            <p class="blue">Basic treatment</p>
+            <h1><b>Which are the basic check ups?</b></h1>
+        </center>
+        <div class="row"></div>
+    </section>
+
+    <section id="prevention">
+        <center>
+            <p class="blue">Basic preventions</p>
+            <h1><b>How to stay safe?</b></h1>
+        </center>
+        <div class="row"></div>
+    </section>
+
+    <section id="statistics">
+        <center>
+            <p class="blue">Global Statistics</p>
+            <h1><b>How is it in total point of view?</b></h1>
+        </center>
+        <canvas id="chart" style="height:200px;width: 400;"></canvas>
+    </section>
+
+    <section id="report">
+        <center>
+            <p class="blue">Last reports</p>
+            <h1><b>What is going on around the world?</b></h1>
+        </center>
+        <table id="table">
+            <tr>
+                <th>Country</th>
+                <th>Total Cases</th>
+                <th>New Cases</th>
+                <th>Total Deaths</th>
+                <th>New Deaths</th>
+                <th>Total Recovered</th>
+            </tr>
+        </table>
+    </section>
+
+</body>
+
+</html>

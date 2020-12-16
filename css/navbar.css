@@ -1,0 +1,37 @@
+.navbar-inverse {
+  background-color: transparent !important;
+  border-color: transparent !important;
+}
+
+hr {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  border: 0;
+  border-top: 1px solid cornflowerblue !important;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+  color: white !important;
+}
+
+.sticky {
+  position: fixed !important;
+  top: 0;
+  width: 100%;
+}
+
+.navbar-brand {
+  padding: 0px 15px !important;
+  display: flex;
+  align-items: center;
+}
+
+.navbar > img {
+  width: 10%;
+}
+
+@media (max-width: 600px) {
+  .sticky {
+    position: relative !important;
+  }
+}

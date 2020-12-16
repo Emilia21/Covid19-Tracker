@@ -1,0 +1,31 @@
+.blue {
+    color: #2c8bdd;
+    font-size: large;
+    font-weight: bold;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 5% 2%;
+    align-items: center;
+    justify-items: center;
+}
+
+#covid19 img {
+    width: 80%;
+}
+
+#symptoms img {
+    width: 60%;
+}
+
+@media screen and (max-width: 767px) {
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 5% 2%;
+        align-items: center;
+        justify-items: center;
+    }
+}
